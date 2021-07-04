@@ -1,6 +1,26 @@
-.navbar {
+.header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    padding: 10px 0;
+    margin-bottom: 50px;
+
+    .header__logo {
+        .logo {
+            font-size: 4rem;
+            letter-spacing: 0.05em;
+            color: $primaryBlack;
+        }
+
+        .logo-subheader {
+            font-size: 1rem;
+            text-transform: uppercase;
+            color: #b1b1b1;
+        }
+    }
+
+    .header__links {
+
+    }
 }

@@ -7,12 +7,15 @@
         <?php wp_head(); ?>
     </head>
     <body <?php body_class(); ?>>
-        <nav class="navbar container">
-            <div class="navbar__nav-logo">
+        <header class="header container">
+            <div class="header__logo">
                 <h4 class="logo">Haven</h4>
                 <p class="logo-subheader">A wellbeing space dedicated to Introverts.</p>
             </div>
-            <div class="navbar__nav-links">
+            <div class="header__links">
 
             </div>
+        </header>
+        <nav class="navbar">
+            
         </nav>
