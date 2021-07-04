@@ -13,9 +13,19 @@
                 <p class="logo-subheader">A wellbeing space dedicated to Introverts.</p>
             </div>
             <div class="header__links">
-
+                <a href="">Home</a>
+                <a href="">About</a>
+                <button class="nav-btn">Sign Up</button>
             </div>
         </header>
         <nav class="navbar">
-            
+            <ul class="navbar__nav-links">
+                <li>Self-Development</li>
+                <li>Mental Health</li>
+                <li>Health & Wellbeing</li>
+                <li>Personality</li>
+                <li>Psychology</li>
+                <li>Creativity</li>
+                <li>Nutrition</li>
+            <ul>
         </nav>

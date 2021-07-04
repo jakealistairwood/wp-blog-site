@@ -23,11 +23,55 @@ body, html {
     height: 100vh;
 }
 
+a, button {
+    cursor: pointer;
+}
+
 .container {
     width: 60%;
     margin: 0 auto;
 
     @media screen and (max-width: 1440px) {
         width: 80%;
+    }
+}
+
+.posts {
+    h4 {
+        font-size: 2.5rem;
+        text-transform: uppercase;
+        margin: 50px 0;
+        color: $primaryBlack;
+    }
+}
+
+.posts-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+
+    .post {
+        .post-header {
+            .post-category {
+                font-family: $secondaryFont;
+    
+                a {
+                    color: $midGrey;
+                    text-decoration: none;
+                }
+            }
+            .post-title {
+                font-size: 1.7rem;
+                line-height: 35px;
+            }
+        }
+        .post-content {
+            p {
+                line-height: 30px;
+                color: $darkerGrey;
+                font-weight: 300;
+                margin-top: 20px;
+            }
+        }
     }
 }
