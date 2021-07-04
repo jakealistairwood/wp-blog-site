@@ -8,9 +8,11 @@
 
     .header__logo {
         .logo {
-            font-size: 4rem;
-            letter-spacing: 0.05em;
-            color: $primaryBlack;
+            a {
+                font-size: 4rem;
+                letter-spacing: 0.05em;
+                color: $primaryBlack;
+            }
         }
 
         .logo-subheader {
@@ -60,8 +62,13 @@
         li {
             list-style: none;
             padding-right: 30px;
-            font-family: $contentFont;
-            font-size: 12px;
+
+            a {
+                font-family: $contentFont;
+                font-size: 12px;
+                color: $primaryBlack;
+                text-decoration: none;
+            }
         }
     }
 }

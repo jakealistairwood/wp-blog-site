@@ -4,6 +4,7 @@
 @import './components/buttons';
 @import './layout/navbar';
 @import './layout/hero';
+@import './layout/footer';
 
 /* 
     Name: Haven
@@ -25,6 +26,10 @@ body, html {
 
 a, button {
     cursor: pointer;
+}
+
+a {
+    text-decoration: none;
 }
 
 .container {
